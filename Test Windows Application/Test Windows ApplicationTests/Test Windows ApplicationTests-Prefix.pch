@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'Test Windows ApplicationTests' target in the 'Test Windows ApplicationTests' project
+//
+
+#ifdef __OBJC__
+    #import <UIKit/UIKit.h>
+#endif

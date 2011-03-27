@@ -1,0 +1,485 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		67F3DC05133F75F500803390 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 67F3DC04133F75F500803390 /* UIKit.framework */; };
+		67F3DC07133F75F500803390 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 67F3DC06133F75F500803390 /* Foundation.framework */; };
+		67F3DC09133F75F500803390 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 67F3DC08133F75F500803390 /* CoreGraphics.framework */; };
+		67F3DC0F133F75F500803390 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 67F3DC0D133F75F500803390 /* InfoPlist.strings */; };
+		67F3DC12133F75F500803390 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 67F3DC11133F75F500803390 /* main.m */; };
+		67F3DC15133F75F500803390 /* Test_Windows_ApplicationAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 67F3DC14133F75F500803390 /* Test_Windows_ApplicationAppDelegate.m */; };
+		67F3DC19133F75F500803390 /* Test_Windows_ApplicationAppDelegate_iPhone.m in Sources */ = {isa = PBXBuildFile; fileRef = 67F3DC18133F75F500803390 /* Test_Windows_ApplicationAppDelegate_iPhone.m */; };
+		67F3DC1C133F75F500803390 /* MainWindow_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 67F3DC1A133F75F500803390 /* MainWindow_iPhone.xib */; };
+		67F3DC20133F75F500803390 /* Test_Windows_ApplicationAppDelegate_iPad.m in Sources */ = {isa = PBXBuildFile; fileRef = 67F3DC1F133F75F500803390 /* Test_Windows_ApplicationAppDelegate_iPad.m */; };
+		67F3DC23133F75F600803390 /* MainWindow_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 67F3DC21133F75F600803390 /* MainWindow_iPad.xib */; };
+		67F3DC2A133F75F600803390 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 67F3DC04133F75F500803390 /* UIKit.framework */; };
+		67F3DC2B133F75F600803390 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 67F3DC06133F75F500803390 /* Foundation.framework */; };
+		67F3DC2C133F75F600803390 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 67F3DC08133F75F500803390 /* CoreGraphics.framework */; };
+		67F3DC34133F75F600803390 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 67F3DC32133F75F600803390 /* InfoPlist.strings */; };
+		67F3DC37133F75F600803390 /* Test_Windows_ApplicationTests.h in Resources */ = {isa = PBXBuildFile; fileRef = 67F3DC36133F75F600803390 /* Test_Windows_ApplicationTests.h */; };
+		67F3DC39133F75F600803390 /* Test_Windows_ApplicationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 67F3DC38133F75F600803390 /* Test_Windows_ApplicationTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		67F3DC2D133F75F600803390 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 67F3DBF7133F75F500803390 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 67F3DBFF133F75F500803390;
+			remoteInfo = "Test Windows Application";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		67F3DC00133F75F500803390 /* Test Windows Application.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Test Windows Application.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		67F3DC04133F75F500803390 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		67F3DC06133F75F500803390 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		67F3DC08133F75F500803390 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		67F3DC0C133F75F500803390 /* Test Windows Application-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Test Windows Application-Info.plist"; sourceTree = "<group>"; };
+		67F3DC0E133F75F500803390 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		67F3DC10133F75F500803390 /* Test Windows Application-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Test Windows Application-Prefix.pch"; sourceTree = "<group>"; };
+		67F3DC11133F75F500803390 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		67F3DC13133F75F500803390 /* Test_Windows_ApplicationAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Test_Windows_ApplicationAppDelegate.h; sourceTree = "<group>"; };
+		67F3DC14133F75F500803390 /* Test_Windows_ApplicationAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Test_Windows_ApplicationAppDelegate.m; sourceTree = "<group>"; };
+		67F3DC17133F75F500803390 /* Test_Windows_ApplicationAppDelegate_iPhone.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Test_Windows_ApplicationAppDelegate_iPhone.h; path = iPhone/Test_Windows_ApplicationAppDelegate_iPhone.h; sourceTree = "<group>"; };
+		67F3DC18133F75F500803390 /* Test_Windows_ApplicationAppDelegate_iPhone.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = Test_Windows_ApplicationAppDelegate_iPhone.m; path = iPhone/Test_Windows_ApplicationAppDelegate_iPhone.m; sourceTree = "<group>"; };
+		67F3DC1B133F75F500803390 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = iPhone/en.lproj/MainWindow_iPhone.xib; sourceTree = "<group>"; };
+		67F3DC1E133F75F500803390 /* Test_Windows_ApplicationAppDelegate_iPad.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Test_Windows_ApplicationAppDelegate_iPad.h; path = iPad/Test_Windows_ApplicationAppDelegate_iPad.h; sourceTree = "<group>"; };
+		67F3DC1F133F75F500803390 /* Test_Windows_ApplicationAppDelegate_iPad.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = Test_Windows_ApplicationAppDelegate_iPad.m; path = iPad/Test_Windows_ApplicationAppDelegate_iPad.m; sourceTree = "<group>"; };
+		67F3DC22133F75F600803390 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = iPad/en.lproj/MainWindow_iPad.xib; sourceTree = "<group>"; };
+		67F3DC29133F75F600803390 /* Test Windows ApplicationTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Test Windows ApplicationTests.octest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		67F3DC31133F75F600803390 /* Test Windows ApplicationTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Test Windows ApplicationTests-Info.plist"; sourceTree = "<group>"; };
+		67F3DC33133F75F600803390 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		67F3DC35133F75F600803390 /* Test Windows ApplicationTests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Test Windows ApplicationTests-Prefix.pch"; sourceTree = "<group>"; };
+		67F3DC36133F75F600803390 /* Test_Windows_ApplicationTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Test_Windows_ApplicationTests.h; sourceTree = "<group>"; };
+		67F3DC38133F75F600803390 /* Test_Windows_ApplicationTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Test_Windows_ApplicationTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		67F3DBFD133F75F500803390 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67F3DC05133F75F500803390 /* UIKit.framework in Frameworks */,
+				67F3DC07133F75F500803390 /* Foundation.framework in Frameworks */,
+				67F3DC09133F75F500803390 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		67F3DC25133F75F600803390 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67F3DC2A133F75F600803390 /* UIKit.framework in Frameworks */,
+				67F3DC2B133F75F600803390 /* Foundation.framework in Frameworks */,
+				67F3DC2C133F75F600803390 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		67F3DBF5133F75F400803390 = {
+			isa = PBXGroup;
+			children = (
+				67F3DC0A133F75F500803390 /* Test Windows Application */,
+				67F3DC2F133F75F600803390 /* Test Windows ApplicationTests */,
+				67F3DC03133F75F500803390 /* Frameworks */,
+				67F3DC01133F75F500803390 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		67F3DC01133F75F500803390 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				67F3DC00133F75F500803390 /* Test Windows Application.app */,
+				67F3DC29133F75F600803390 /* Test Windows ApplicationTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		67F3DC03133F75F500803390 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				67F3DC04133F75F500803390 /* UIKit.framework */,
+				67F3DC06133F75F500803390 /* Foundation.framework */,
+				67F3DC08133F75F500803390 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		67F3DC0A133F75F500803390 /* Test Windows Application */ = {
+			isa = PBXGroup;
+			children = (
+				67F3DC13133F75F500803390 /* Test_Windows_ApplicationAppDelegate.h */,
+				67F3DC14133F75F500803390 /* Test_Windows_ApplicationAppDelegate.m */,
+				67F3DC16133F75F500803390 /* iPhone */,
+				67F3DC1D133F75F500803390 /* iPad */,
+				67F3DC0B133F75F500803390 /* Supporting Files */,
+			);
+			path = "Test Windows Application";
+			sourceTree = "<group>";
+		};
+		67F3DC0B133F75F500803390 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				67F3DC0C133F75F500803390 /* Test Windows Application-Info.plist */,
+				67F3DC0D133F75F500803390 /* InfoPlist.strings */,
+				67F3DC10133F75F500803390 /* Test Windows Application-Prefix.pch */,
+				67F3DC11133F75F500803390 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		67F3DC16133F75F500803390 /* iPhone */ = {
+			isa = PBXGroup;
+			children = (
+				67F3DC17133F75F500803390 /* Test_Windows_ApplicationAppDelegate_iPhone.h */,
+				67F3DC18133F75F500803390 /* Test_Windows_ApplicationAppDelegate_iPhone.m */,
+				67F3DC1A133F75F500803390 /* MainWindow_iPhone.xib */,
+			);
+			name = iPhone;
+			sourceTree = "<group>";
+		};
+		67F3DC1D133F75F500803390 /* iPad */ = {
+			isa = PBXGroup;
+			children = (
+				67F3DC1E133F75F500803390 /* Test_Windows_ApplicationAppDelegate_iPad.h */,
+				67F3DC1F133F75F500803390 /* Test_Windows_ApplicationAppDelegate_iPad.m */,
+				67F3DC21133F75F600803390 /* MainWindow_iPad.xib */,
+			);
+			name = iPad;
+			sourceTree = "<group>";
+		};
+		67F3DC2F133F75F600803390 /* Test Windows ApplicationTests */ = {
+			isa = PBXGroup;
+			children = (
+				67F3DC36133F75F600803390 /* Test_Windows_ApplicationTests.h */,
+				67F3DC38133F75F600803390 /* Test_Windows_ApplicationTests.m */,
+				67F3DC30133F75F600803390 /* Supporting Files */,
+			);
+			path = "Test Windows ApplicationTests";
+			sourceTree = "<group>";
+		};
+		67F3DC30133F75F600803390 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				67F3DC31133F75F600803390 /* Test Windows ApplicationTests-Info.plist */,
+				67F3DC32133F75F600803390 /* InfoPlist.strings */,
+				67F3DC35133F75F600803390 /* Test Windows ApplicationTests-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		67F3DBFF133F75F500803390 /* Test Windows Application */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 67F3DC3C133F75F600803390 /* Build configuration list for PBXNativeTarget "Test Windows Application" */;
+			buildPhases = (
+				67F3DBFC133F75F500803390 /* Sources */,
+				67F3DBFD133F75F500803390 /* Frameworks */,
+				67F3DBFE133F75F500803390 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Test Windows Application";
+			productName = "Test Windows Application";
+			productReference = 67F3DC00133F75F500803390 /* Test Windows Application.app */;
+			productType = "com.apple.product-type.application";
+		};
+		67F3DC28133F75F600803390 /* Test Windows ApplicationTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 67F3DC3F133F75F600803390 /* Build configuration list for PBXNativeTarget "Test Windows ApplicationTests" */;
+			buildPhases = (
+				67F3DC24133F75F600803390 /* Sources */,
+				67F3DC25133F75F600803390 /* Frameworks */,
+				67F3DC26133F75F600803390 /* Resources */,
+				67F3DC27133F75F600803390 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				67F3DC2E133F75F600803390 /* PBXTargetDependency */,
+			);
+			name = "Test Windows ApplicationTests";
+			productName = "Test Windows ApplicationTests";
+			productReference = 67F3DC29133F75F600803390 /* Test Windows ApplicationTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		67F3DBF7133F75F500803390 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = "Iris Software Limited";
+			};
+			buildConfigurationList = 67F3DBFA133F75F500803390 /* Build configuration list for PBXProject "Test Windows Application" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 67F3DBF5133F75F400803390;
+			productRefGroup = 67F3DC01133F75F500803390 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				67F3DBFF133F75F500803390 /* Test Windows Application */,
+				67F3DC28133F75F600803390 /* Test Windows ApplicationTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		67F3DBFE133F75F500803390 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67F3DC0F133F75F500803390 /* InfoPlist.strings in Resources */,
+				67F3DC1C133F75F500803390 /* MainWindow_iPhone.xib in Resources */,
+				67F3DC23133F75F600803390 /* MainWindow_iPad.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		67F3DC26133F75F600803390 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67F3DC34133F75F600803390 /* InfoPlist.strings in Resources */,
+				67F3DC37133F75F600803390 /* Test_Windows_ApplicationTests.h in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		67F3DC27133F75F600803390 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		67F3DBFC133F75F500803390 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67F3DC12133F75F500803390 /* main.m in Sources */,
+				67F3DC15133F75F500803390 /* Test_Windows_ApplicationAppDelegate.m in Sources */,
+				67F3DC19133F75F500803390 /* Test_Windows_ApplicationAppDelegate_iPhone.m in Sources */,
+				67F3DC20133F75F500803390 /* Test_Windows_ApplicationAppDelegate_iPad.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		67F3DC24133F75F600803390 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67F3DC39133F75F600803390 /* Test_Windows_ApplicationTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		67F3DC2E133F75F600803390 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 67F3DBFF133F75F500803390 /* Test Windows Application */;
+			targetProxy = 67F3DC2D133F75F600803390 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		67F3DC0D133F75F500803390 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				67F3DC0E133F75F500803390 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		67F3DC1A133F75F500803390 /* MainWindow_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				67F3DC1B133F75F500803390 /* en */,
+			);
+			name = MainWindow_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		67F3DC21133F75F600803390 /* MainWindow_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				67F3DC22133F75F600803390 /* en */,
+			);
+			name = MainWindow_iPad.xib;
+			sourceTree = "<group>";
+		};
+		67F3DC32133F75F600803390 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				67F3DC33133F75F600803390 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		67F3DC3A133F75F600803390 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		67F3DC3B133F75F600803390 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		67F3DC3D133F75F600803390 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Test Windows Application/Test Windows Application-Prefix.pch";
+				INFOPLIST_FILE = "Test Windows Application/Test Windows Application-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		67F3DC3E133F75F600803390 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Test Windows Application/Test Windows Application-Prefix.pch";
+				INFOPLIST_FILE = "Test Windows Application/Test Windows Application-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		67F3DC40133F75F600803390 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Test Windows Application.app/Test Windows Application";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Test Windows ApplicationTests/Test Windows ApplicationTests-Prefix.pch";
+				INFOPLIST_FILE = "Test Windows ApplicationTests/Test Windows ApplicationTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		67F3DC41133F75F600803390 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Test Windows Application.app/Test Windows Application";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Test Windows ApplicationTests/Test Windows ApplicationTests-Prefix.pch";
+				INFOPLIST_FILE = "Test Windows ApplicationTests/Test Windows ApplicationTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		67F3DBFA133F75F500803390 /* Build configuration list for PBXProject "Test Windows Application" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				67F3DC3A133F75F600803390 /* Debug */,
+				67F3DC3B133F75F600803390 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		67F3DC3C133F75F600803390 /* Build configuration list for PBXNativeTarget "Test Windows Application" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				67F3DC3D133F75F600803390 /* Debug */,
+				67F3DC3E133F75F600803390 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		67F3DC3F133F75F600803390 /* Build configuration list for PBXNativeTarget "Test Windows ApplicationTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				67F3DC40133F75F600803390 /* Debug */,
+				67F3DC41133F75F600803390 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 67F3DBF7133F75F500803390 /* Project object */;
+}
